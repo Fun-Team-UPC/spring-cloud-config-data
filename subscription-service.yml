@@ -16,11 +16,11 @@ spring:
   # DB
   # ===============================
 
-  datasource: 
+  datasource:
   url: jdbc:mysql://localhost:3306/ilanguagefas
   driverClassName: com.mysql.cj.jdbc.Driver
   username: root
-  password: root
+  password: password
 
   # ===============================
   # JPA / HIBERNATE
