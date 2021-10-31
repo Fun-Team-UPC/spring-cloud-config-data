@@ -20,7 +20,7 @@ spring:
   url: jdbc:mysql://localhost:3306/ilanguagefas
   driverClassName: com.mysql.cj.jdbc.Driver
   username: root
-  password: password
+  password: root
 
   # ===============================
   # JPA / HIBERNATE

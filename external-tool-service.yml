@@ -17,10 +17,10 @@ spring:
   # ===============================
 
   datasource:
-  url: jdbc:mysql://localhost:3306/externaltool
+  url: jdbc:mysql://localhost:3306/externaltool?verifyServerCertificate=false&useSSL=false&useTimezone=true&serverTimezone=UTC
   driverClassName: com.mysql.cj.jdbc.Driver
   username: root
-  password: password
+  password: root
 
   # ===============================
   # JPA / HIBERNATE
