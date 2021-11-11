@@ -9,7 +9,14 @@ spring:
       server:
         git:
           uri: https://github.com/Fun-Team-UPC/spring-cloud-config-data.git
-
-  # Spring properties in case you use different profiles
-  profiles:
-    active: dev
+          searchPaths:
+            username: ${GIT_USER}
+            password: ${GIT_PASSWORD}
+            default-label: "master"
+#  # Spring properties in case you use different profiles
+#  profiles:
+#    active: dev
+  security:
+      user:
+        name: root
+        password: s3cr3t
