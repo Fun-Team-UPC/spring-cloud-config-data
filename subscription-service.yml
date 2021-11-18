@@ -1,6 +1,6 @@
 #Application Configuration
 server:
-  port: 8081
+  port: https://ilanguage-subscription-microservice.azurewebsites.net
   error:
     include-message: always
     include-binding-errors: always
