@@ -35,6 +35,13 @@ spring:
         show_sql: true
         use_sql_comments: false
         format_sql: false
+axon:
+  axonserver:
+    servers: localhost
+  eventhandling:
+    processors:
+      accountNumber:
+        mode: subscribing
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
