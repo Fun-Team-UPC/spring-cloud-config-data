@@ -21,4 +21,8 @@ spring:
           uri: lb://session-service
           predicates:
             - Path=/sessions/**
+        - id: externaltool-service
+          uri: lb://externaltool-service
+          predicates:
+            - Path=/externaltool/**
         
