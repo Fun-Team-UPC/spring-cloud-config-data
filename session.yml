@@ -37,7 +37,7 @@ spring:
         format_sql: false
 axon:
   axonserver:
-    servers: localhost
+    servers: ilanguage-registry-service-fas-do7mck57bq-uc.a.run.app
   eventhandling:
     processors:
       accountNumber:
