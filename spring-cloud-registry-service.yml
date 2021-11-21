@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: ilanguage-registry-service-fas-do7mck57bq-uc.a.run.app
   client:
     registerWithEureka: false
     fetchRegistry: false
