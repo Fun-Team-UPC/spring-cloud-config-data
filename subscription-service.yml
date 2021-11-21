@@ -23,10 +23,10 @@ spring:
   # ===============================
 
   datasource:
-  url: jdbc:mysql://mysqlinstance08.mysql.database.azure.com:3306/Ilanguange-subscripcion-fas
+  url: jdbc:mysql://35.198.55.80:3306/ilanguage-subscription-fas
   driverClassName: com.mysql.cj.jdbc.Driver
   username: sebtou
-  password: ^z7zc0p090u2sPQa3XH4I#uGCGqCL@Bc5&^^Xvcf4vaK4
+  password: Payasito123456*
 
   # ===============================
   # JPA / HIBERNATE
@@ -47,7 +47,7 @@ logging:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: https://ilanguage-config-server-fas-do7mck57bq-rj.a.run.app
 management:
   endpoints:
     web:
