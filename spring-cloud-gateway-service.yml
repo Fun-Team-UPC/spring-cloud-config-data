@@ -17,7 +17,7 @@ spring:
           uri: lb://subscription-service
           predicates:
             - Path=/subscriptions/**
-        - id: session-service
+        - id: SESSION-SERVICE
           uri: lb://session-service
           predicates:
             - Path=/sessions/**
