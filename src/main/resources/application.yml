@@ -10,8 +10,8 @@ spring:
         git:
           uri: https://github.com/Fun-Team-UPC/spring-cloud-config-data.git
           searchPaths:
-            username: ${GIT_USER}
-            password: ${GIT_PASSWORD}
+#             username: ${GIT_USER}
+#             password: ${GIT_PASSWORD}
             default-label: "master"
 #  # Spring properties in case you use different profiles
 #  profiles:
