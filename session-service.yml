@@ -40,7 +40,7 @@ axon:
     servers: localhost
   eventhandling:
     processors:
-      accountNumber:
+      SessionInfra:
         mode: subscribing
 logging:
   pattern:
